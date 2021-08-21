@@ -1,1 +1,26 @@
-<p>header works!</p>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-color-blue py-3 px-3 px-lg-5">
+  <a class="navbar-brand" href="#">SEO Solutions</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link color-white" routerLink="/proximamente">About</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link color-white" routerLink="/proximamente">Tutors</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link color-white" routerLink="/proximamente">Program</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link color-white" routerLink="/proximamente">Location</a>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-danger bg-color-pink" (click)="bookAplace();">BOOK A PLACE</button>
+      </li>
+    </ul>
+  </div>
+</nav>

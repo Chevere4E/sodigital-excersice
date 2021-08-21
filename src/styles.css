@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+.bg-color-blue{
+    background-color: #00bad3 !important;
+}
+
+.color-blue{
+    color: #00bad3 !important;
+}
+
+.bg-color-purple{
+    background-color: #302d5a !important;
+}
+
+.color-purple{
+    color: #302d5a !important;
+}
+
+.bg-color-pink{
+    background-color: #e24b5d !important;
+}
+
+.color-pink{
+    color: #e24b5d !important;
+}
+
+.color-white{
+    color: #ffffff !important;
+}
